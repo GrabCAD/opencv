@@ -1,0 +1,17 @@
+C:/GIT/opencv/build/x86/vc12/apps/traincascade/CMakeFiles/opencv_traincascade.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/libpng/CMakeFiles/libpng.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/openexr/CMakeFiles/IlmImf.dir
+C:/GIT/opencv/build/x86/vc12/CMakeFiles/uninstall.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/zlib/CMakeFiles/zlib.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/libwebp/CMakeFiles/libwebp.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/libjpeg/CMakeFiles/libjpeg.dir
+C:/GIT/opencv/build/x86/vc12/CMakeFiles/opencv_modules.dir
+C:/GIT/opencv/build/x86/vc12/modules/world/CMakeFiles/opencv_world.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/zlib/CMakeFiles/ALL_BUILD.dir
+C:/GIT/opencv/build/x86/vc12/modules/ts/CMakeFiles/opencv_ts.dir
+C:/GIT/opencv/build/x86/vc12/apps/createsamples/CMakeFiles/opencv_createsamples.dir
+C:/GIT/opencv/build/x86/vc12/CMakeFiles/ZERO_CHECK.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/libjasper/CMakeFiles/libjasper.dir
+C:/GIT/opencv/build/x86/vc12/modules/world/CMakeFiles/opencv_world_object.dir
+C:/GIT/opencv/build/x86/vc12/apps/annotation/CMakeFiles/opencv_annotation.dir
+C:/GIT/opencv/build/x86/vc12/3rdparty/libtiff/CMakeFiles/libtiff.dir

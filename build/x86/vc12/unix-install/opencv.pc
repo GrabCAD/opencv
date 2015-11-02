@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=C:/GIT/opencv/build/x86/vc12/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/x86/vc12/lib
+includedir_old=${prefix}/include/opencv
+includedir_new=${prefix}/include
+
+Name: OpenCV
+Description: Open Source Computer Vision Library
+Version: 3.0.0
+Libs: -L${exec_prefix}/x86/vc12/lib -lopencv_world300
+Libs.private: -lvfw32 -lcomctl32 -lgdi32 -lole32 -lsetupapi -lws2_32
+Cflags: -I${includedir_old} -I${includedir_new}
