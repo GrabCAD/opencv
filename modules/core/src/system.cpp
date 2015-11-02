@@ -1016,8 +1016,10 @@ BOOL WINAPI DllMain(HINSTANCE, DWORD fdwReason, LPVOID lpReserved)
     {
         if (lpReserved != NULL) // called after ExitProcess() call
         {
-            cv::__termination = true;
-        }
+			// https://github.com/Itseez/opencv/issues/5452
+			// http://stackoverflow.com/questions/32845535/opencv-3-0-visual-studio-memory-leak-detector-false-positive
+			cv::__termination = false;
+		}
         else
         {
             // Not allowed to free resources if lpReserved is non-null
