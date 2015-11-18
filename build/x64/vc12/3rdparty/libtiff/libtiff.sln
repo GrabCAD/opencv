@@ -1,0 +1,75 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{B78F231D-3814-4CC9-8B1A-721815E3BDF2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE55859F-A346-44BF-9B27-21E8868EABA8} = {EE55859F-A346-44BF-9B27-21E8868EABA8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{85189BE5-8772-4B54-AAFB-78C76FF6AD3E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B78F231D-3814-4CC9-8B1A-721815E3BDF2} = {B78F231D-3814-4CC9-8B1A-721815E3BDF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PACKAGE", "PACKAGE.vcxproj", "{65572A3B-21A1-48F1-8C5C-A147E4713F33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B78F231D-3814-4CC9-8B1A-721815E3BDF2} = {B78F231D-3814-4CC9-8B1A-721815E3BDF2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\\ZERO_CHECK.vcxproj", "{115430D8-2C8C-4148-887D-EC975E3A1CD0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libtiff", "libtiff.vcxproj", "{EE55859F-A346-44BF-9B27-21E8868EABA8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0} = {115430D8-2C8C-4148-887D-EC975E3A1CD0}
+		{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0} = {103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\zlib\zlib.vcxproj", "{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0} = {115430D8-2C8C-4148-887D-EC975E3A1CD0}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdparty", "3rdparty", "{74473A67-BA84-49BB-8A9E-C20C381CEDAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakeTargets", "CMakeTargets", "{8B47D25A-B6FE-4D6F-9F03-1E7943CE43DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B78F231D-3814-4CC9-8B1A-721815E3BDF2}.Debug|x64.ActiveCfg = Debug|x64
+		{B78F231D-3814-4CC9-8B1A-721815E3BDF2}.Debug|x64.Build.0 = Debug|x64
+		{B78F231D-3814-4CC9-8B1A-721815E3BDF2}.Release|x64.ActiveCfg = Release|x64
+		{B78F231D-3814-4CC9-8B1A-721815E3BDF2}.Release|x64.Build.0 = Release|x64
+		{85189BE5-8772-4B54-AAFB-78C76FF6AD3E}.Debug|x64.ActiveCfg = Debug|x64
+		{85189BE5-8772-4B54-AAFB-78C76FF6AD3E}.Release|x64.ActiveCfg = Release|x64
+		{65572A3B-21A1-48F1-8C5C-A147E4713F33}.Debug|x64.ActiveCfg = Debug|x64
+		{65572A3B-21A1-48F1-8C5C-A147E4713F33}.Release|x64.ActiveCfg = Release|x64
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0}.Debug|x64.ActiveCfg = Debug|x64
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0}.Debug|x64.Build.0 = Debug|x64
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0}.Release|x64.ActiveCfg = Release|x64
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0}.Release|x64.Build.0 = Release|x64
+		{EE55859F-A346-44BF-9B27-21E8868EABA8}.Debug|x64.ActiveCfg = Debug|x64
+		{EE55859F-A346-44BF-9B27-21E8868EABA8}.Debug|x64.Build.0 = Debug|x64
+		{EE55859F-A346-44BF-9B27-21E8868EABA8}.Release|x64.ActiveCfg = Release|x64
+		{EE55859F-A346-44BF-9B27-21E8868EABA8}.Release|x64.Build.0 = Release|x64
+		{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0}.Debug|x64.ActiveCfg = Debug|x64
+		{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0}.Debug|x64.Build.0 = Debug|x64
+		{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0}.Release|x64.ActiveCfg = Release|x64
+		{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE55859F-A346-44BF-9B27-21E8868EABA8} = {74473A67-BA84-49BB-8A9E-C20C381CEDAD}
+		{103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0} = {74473A67-BA84-49BB-8A9E-C20C381CEDAD}
+		{85189BE5-8772-4B54-AAFB-78C76FF6AD3E} = {8B47D25A-B6FE-4D6F-9F03-1E7943CE43DF}
+		{65572A3B-21A1-48F1-8C5C-A147E4713F33} = {8B47D25A-B6FE-4D6F-9F03-1E7943CE43DF}
+		{115430D8-2C8C-4148-887D-EC975E3A1CD0} = {8B47D25A-B6FE-4D6F-9F03-1E7943CE43DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
