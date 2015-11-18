@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{464D66C4-C984-4A2E-BB0A-07F90296E127}</ProjectGUID>
+    <ProjectGUID>{192491C7-8649-4384-B890-864BEA9D1859}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>opencv_world</ProjectName>
@@ -1098,28 +1098,28 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/openexr/IlmImf.vcxproj">
-      <Project>C8553A2A-B579-4B24-9125-567FF564B33D</Project>
+      <Project>ABCCA0A8-D3AB-46B0-B669-81CA9CF3FC63</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/ZERO_CHECK.vcxproj">
-      <Project>115430D8-2C8C-4148-887D-EC975E3A1CD0</Project>
+      <Project>246E7057-077E-4B75-B5C0-A7D162A1F380</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/libjasper/libjasper.vcxproj">
-      <Project>355E317B-1621-4BF1-B8DF-B58F7D2D2EA6</Project>
+      <Project>DAA14648-8BC7-4A86-9B26-25EBA6EA80A1</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/libjpeg/libjpeg.vcxproj">
-      <Project>07C4CAA9-FC11-42B2-87EF-074AEC51C630</Project>
+      <Project>55E134B0-204E-4675-BC7B-E6F64195AAA4</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/libpng/libpng.vcxproj">
-      <Project>FB33A813-84C1-403B-996C-5095320956FC</Project>
+      <Project>7C804894-23E5-4F7B-8532-F09E00332A71</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/libtiff/libtiff.vcxproj">
-      <Project>EE55859F-A346-44BF-9B27-21E8868EABA8</Project>
+      <Project>5BE86924-222E-480A-A637-BF8EBA296A0B</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/libwebp/libwebp.vcxproj">
-      <Project>00E59E18-F666-4044-B712-CDEE00FF1E39</Project>
+      <Project>B8E56346-430E-4174-AF0A-75F44C64BCB8</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/zlib/zlib.vcxproj">
-      <Project>103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0</Project>
+      <Project>BE847DD5-9132-4640-A5D0-4EA2073CB5AB</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

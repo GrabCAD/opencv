@@ -264,10 +264,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{83B7E353-4B59-49BD-BA20-99B9BD70C4BD}</UniqueIdentifier>
+      <UniqueIdentifier>{D7EF2104-9B75-4FF9-92DE-92C6B590AB71}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5674ABEA-FDCB-44EE-8FC5-ADA106789AA5}</UniqueIdentifier>
+      <UniqueIdentifier>{D1A06FA1-4EDA-4A2D-9434-6562B55A4908}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

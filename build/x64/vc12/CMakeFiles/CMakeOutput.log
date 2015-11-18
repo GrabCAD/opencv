@@ -1,0 +1,694 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:51.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\3.3.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\3.3.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\3.3.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.56
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/GIT/opencv/build/x64/vc12/CMakeFiles/3.3.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:51.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\3.3.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\3.3.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\3.3.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/GIT/opencv/build/x64/vc12/CMakeFiles/3.3.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_697d1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:52.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_697d1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_697d1.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_697d1.dir\Debug\cmTC_697d1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_697d1.dir\Debug\cmTC_697d1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_697d1.dir\Debug\\" /Fd"cmTC_697d1.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_697d1.dir\Debug\\" /Fd"cmTC_697d1.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_697d1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_697d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_697d1.lib" /MACHINE:X64  /machine:x64 /debug cmTC_697d1.dir\Debug\testCXXCompiler.obj
+  cmTC_697d1.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_697d1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_697d1.dir\Debug\cmTC_697d1.tlog\unsuccessfulbuild".
+  Touching "cmTC_697d1.dir\Debug\cmTC_697d1.tlog\cmTC_697d1.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_697d1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_844df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:53.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_844df.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_844df.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_844df.dir\Debug\cmTC_844df.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_844df.dir\Debug\cmTC_844df.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_844df.dir\Debug\\" /Fd"cmTC_844df.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_844df.dir\Debug\\" /Fd"cmTC_844df.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_844df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_844df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_844df.lib" /MACHINE:X64  /machine:x64 /debug cmTC_844df.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_844df.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_844df.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_844df.dir\Debug\cmTC_844df.tlog\unsuccessfulbuild".
+  Touching "cmTC_844df.dir\Debug\cmTC_844df.tlog\cmTC_844df.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_844df.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_82cd0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:54.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_82cd0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_82cd0.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_82cd0.dir\Debug\cmTC_82cd0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_82cd0.dir\Debug\cmTC_82cd0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_82cd0.dir\Debug\\" /Fd"cmTC_82cd0.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\GIT\opencv\build\x64\vc12\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_82cd0.dir\Debug\\" /Fd"cmTC_82cd0.dir\Debug\vc120.pdb" /Gd /TP /errorReport:queue C:\GIT\opencv\build\x64\vc12\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_82cd0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_82cd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_82cd0.lib" /MACHINE:X64  /machine:x64 /debug cmTC_82cd0.dir\Debug\feature_tests.obj
+  cmTC_82cd0.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_82cd0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_82cd0.dir\Debug\cmTC_82cd0.tlog\unsuccessfulbuild".
+  Touching "cmTC_82cd0.dir\Debug\cmTC_82cd0.tlog\cmTC_82cd0.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_82cd0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_cca9e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:55.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_cca9e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cca9e.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cca9e.dir\Debug\cmTC_cca9e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cca9e.dir\Debug\cmTC_cca9e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cca9e.dir\Debug\\" /Fd"cmTC_cca9e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cca9e.dir\Debug\\" /Fd"cmTC_cca9e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_cca9e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_cca9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_cca9e.lib" /MACHINE:X64  /machine:x64 /debug cmTC_cca9e.dir\Debug\testCCompiler.obj
+  cmTC_cca9e.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_cca9e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_cca9e.dir\Debug\cmTC_cca9e.tlog\unsuccessfulbuild".
+  Touching "cmTC_cca9e.dir\Debug\cmTC_cca9e.tlog\cmTC_cca9e.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_cca9e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c47b1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:55.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_c47b1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c47b1.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c47b1.dir\Debug\cmTC_c47b1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c47b1.dir\Debug\cmTC_c47b1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c47b1.dir\Debug\\" /Fd"cmTC_c47b1.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c47b1.dir\Debug\\" /Fd"cmTC_c47b1.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_c47b1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_c47b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_c47b1.lib" /MACHINE:X64  /machine:x64 /debug cmTC_c47b1.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_c47b1.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_c47b1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c47b1.dir\Debug\cmTC_c47b1.tlog\unsuccessfulbuild".
+  Touching "cmTC_c47b1.dir\Debug\cmTC_c47b1.tlog\cmTC_c47b1.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_c47b1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f5dc9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:58.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_f5dc9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f5dc9.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f5dc9.dir\Debug\cmTC_f5dc9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f5dc9.dir\Debug\cmTC_f5dc9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f5dc9.dir\Debug\\" /Fd"cmTC_f5dc9.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f5dc9.dir\Debug\\" /Fd"cmTC_f5dc9.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_f5dc9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_f5dc9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_f5dc9.lib" /MACHINE:X64  /machine:x64 /debug cmTC_f5dc9.dir\Debug\CheckIncludeFile.obj
+  cmTC_f5dc9.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_f5dc9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f5dc9.dir\Debug\cmTC_f5dc9.tlog\unsuccessfulbuild".
+  Touching "cmTC_f5dc9.dir\Debug\cmTC_f5dc9.tlog\cmTC_f5dc9.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_f5dc9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_28dab.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:58.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_28dab.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_28dab.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_28dab.dir\Debug\cmTC_28dab.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_28dab.dir\Debug\cmTC_28dab.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_28dab.dir\Debug\\" /Fd"cmTC_28dab.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_28dab.dir\Debug\\" /Fd"cmTC_28dab.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_28dab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_28dab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_28dab.lib" /MACHINE:X64  /machine:x64 /debug cmTC_28dab.dir\Debug\CheckIncludeFile.obj
+  cmTC_28dab.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_28dab.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_28dab.dir\Debug\cmTC_28dab.tlog\unsuccessfulbuild".
+  Touching "cmTC_28dab.dir\Debug\cmTC_28dab.tlog\cmTC_28dab.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_28dab.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.55
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c7372.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:51:59.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_c7372.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c7372.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c7372.dir\Debug\cmTC_c7372.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c7372.dir\Debug\cmTC_c7372.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c7372.dir\Debug\\" /Fd"cmTC_c7372.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c7372.dir\Debug\\" /Fd"cmTC_c7372.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_c7372.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_c7372.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_c7372.lib" /MACHINE:X64  /machine:x64 /debug cmTC_c7372.dir\Debug\CheckIncludeFile.obj
+  cmTC_c7372.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_c7372.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c7372.dir\Debug\cmTC_c7372.tlog\unsuccessfulbuild".
+  Touching "cmTC_c7372.dir\Debug\cmTC_c7372.tlog\cmTC_c7372.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_c7372.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f0381.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:52:00.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_f0381.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f0381.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f0381.dir\Debug\cmTC_f0381.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f0381.dir\Debug\cmTC_f0381.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f0381.dir\Debug\\" /Fd"cmTC_f0381.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f0381.dir\Debug\\" /Fd"cmTC_f0381.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CheckTypeSize\CMAKE_SIZEOF_UNSIGNED_SHORT.c
+  
+  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_f0381.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_f0381.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_f0381.lib" /MACHINE:X64  /machine:x64 /debug cmTC_f0381.dir\Debug\CMAKE_SIZEOF_UNSIGNED_SHORT.obj
+  cmTC_f0381.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_f0381.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f0381.dir\Debug\cmTC_f0381.tlog\unsuccessfulbuild".
+  Touching "cmTC_f0381.dir\Debug\cmTC_f0381.tlog\cmTC_f0381.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_f0381.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_fa7bc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:52:03.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_fa7bc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fa7bc.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fa7bc.dir\Debug\cmTC_fa7bc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fa7bc.dir\Debug\cmTC_fa7bc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fa7bc.dir\Debug\\" /Fd"cmTC_fa7bc.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fa7bc.dir\Debug\\" /Fd"cmTC_fa7bc.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_fa7bc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_fa7bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_fa7bc.lib" /MACHINE:X64  /machine:x64 /debug cmTC_fa7bc.dir\Debug\CheckIncludeFile.obj
+  cmTC_fa7bc.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_fa7bc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_fa7bc.dir\Debug\cmTC_fa7bc.tlog\unsuccessfulbuild".
+  Touching "cmTC_fa7bc.dir\Debug\cmTC_fa7bc.tlog\cmTC_fa7bc.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_fa7bc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_324ce.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:52:03.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_324ce.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_324ce.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_324ce.dir\Debug\cmTC_324ce.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_324ce.dir\Debug\cmTC_324ce.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_324ce.dir\Debug\\" /Fd"cmTC_324ce.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_324ce.dir\Debug\\" /Fd"cmTC_324ce.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_324ce.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_324ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_324ce.lib" /MACHINE:X64  /machine:x64 /debug cmTC_324ce.dir\Debug\CheckIncludeFile.obj
+  cmTC_324ce.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_324ce.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_324ce.dir\Debug\cmTC_324ce.tlog\unsuccessfulbuild".
+  Touching "cmTC_324ce.dir\Debug\cmTC_324ce.tlog\cmTC_324ce.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_324ce.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the include file io.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8ef2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:52:04.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_8ef2b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8ef2b.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8ef2b.dir\Debug\cmTC_8ef2b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8ef2b.dir\Debug\cmTC_8ef2b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8ef2b.dir\Debug\\" /Fd"cmTC_8ef2b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8ef2b.dir\Debug\\" /Fd"cmTC_8ef2b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_8ef2b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_8ef2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_8ef2b.lib" /MACHINE:X64  /machine:x64 /debug cmTC_8ef2b.dir\Debug\CheckIncludeFile.obj
+  cmTC_8ef2b.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_8ef2b.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8ef2b.dir\Debug\cmTC_8ef2b.tlog\unsuccessfulbuild".
+  Touching "cmTC_8ef2b.dir\Debug\cmTC_8ef2b.tlog\cmTC_8ef2b.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_8ef2b.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b5223.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:52:06.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_b5223.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b5223.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b5223.dir\Debug\cmTC_b5223.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b5223.dir\Debug\cmTC_b5223.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b5223.dir\Debug\\" /Fd"cmTC_b5223.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b5223.dir\Debug\\" /Fd"cmTC_b5223.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_b5223.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_b5223.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_b5223.lib" /MACHINE:X64  /machine:x64 /debug cmTC_b5223.dir\Debug\CheckIncludeFile.obj
+  cmTC_b5223.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_b5223.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b5223.dir\Debug\cmTC_b5223.tlog\unsuccessfulbuild".
+  Touching "cmTC_b5223.dir\Debug\cmTC_b5223.tlog\cmTC_b5223.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_b5223.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.51
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b70c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18-Nov-15 12:52:07.
+Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_b70c5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b70c5.dir\Debug\".
+  Creating directory "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b70c5.dir\Debug\cmTC_b70c5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b70c5.dir\Debug\cmTC_b70c5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b70c5.dir\Debug\\" /Fd"cmTC_b70c5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP8 /Od /Ob0 /Oi /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b70c5.dir\Debug\\" /Fd"cmTC_b70c5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  /bigobj C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_b70c5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_b70c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/GIT/opencv/build/x64/vc12/CMakeFiles/CMakeTmp/Debug/cmTC_b70c5.lib" /MACHINE:X64  /machine:x64 /debug cmTC_b70c5.dir\Debug\CheckIncludeFile.obj
+  cmTC_b70c5.vcxproj -> C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\Debug\cmTC_b70c5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b70c5.dir\Debug\cmTC_b70c5.tlog\unsuccessfulbuild".
+  Touching "cmTC_b70c5.dir\Debug\cmTC_b70c5.tlog\cmTC_b70c5.lastbuildstate".
+Done Building Project "C:\GIT\opencv\build\x64\vc12\CMakeFiles\CMakeTmp\cmTC_b70c5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.50
+
+

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{D5292081-AB9B-4456-8587-712AD9C3B148}</ProjectGUID>
+    <ProjectGUID>{0B97A7A1-BE7E-452A-B3E3-CCC3F3C0E6CD}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>uninstall</ProjectName>
@@ -126,7 +126,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x86/vc12/ZERO_CHECK.vcxproj">
-      <Project>32EA217F-1AFC-4CEE-942B-0A00CBE82EE1</Project>
+      <Project>7C0D53E1-85FE-4E1F-BD9A-3044827A2DAB</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

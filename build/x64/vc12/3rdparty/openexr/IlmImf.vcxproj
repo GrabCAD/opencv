@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{C8553A2A-B579-4B24-9125-567FF564B33D}</ProjectGUID>
+    <ProjectGUID>{ABCCA0A8-D3AB-46B0-B669-81CA9CF3FC63}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>IlmImf</ProjectName>
@@ -346,10 +346,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/ZERO_CHECK.vcxproj">
-      <Project>115430D8-2C8C-4148-887D-EC975E3A1CD0</Project>
+      <Project>246E7057-077E-4B75-B5C0-A7D162A1F380</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/zlib/zlib.vcxproj">
-      <Project>103EC501-FBFD-45F8-9EA2-FA9E9BEFB7F0</Project>
+      <Project>BE847DD5-9132-4640-A5D0-4EA2073CB5AB</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

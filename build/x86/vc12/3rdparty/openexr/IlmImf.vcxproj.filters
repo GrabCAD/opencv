@@ -591,10 +591,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Include">
-      <UniqueIdentifier>{C40CAC5C-B8DA-4770-9E2B-5C53D856A38F}</UniqueIdentifier>
+      <UniqueIdentifier>{4FBAD335-C4E5-413E-B35E-AED5418908F5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src">
-      <UniqueIdentifier>{83B22C88-7642-45F7-9D51-963C7BB8EB88}</UniqueIdentifier>
+      <UniqueIdentifier>{732629A7-C940-422D-98DF-FD6D64D56BF0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

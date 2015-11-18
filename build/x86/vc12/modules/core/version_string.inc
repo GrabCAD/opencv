@@ -1,7 +1,7 @@
 "  videoio: Removing WinRT API headers by default\n"
 "\n"
 "General configuration for OpenCV 3.0.0 =====================================\n"
-"  Version control:               3.0.0\n"
+"  Version control:               3.0.0-3-g8d7848d-dirty\n"
 "\n"
 "  Platform:\n"
 "    Host:                        Windows 6.1 AMD64\n"

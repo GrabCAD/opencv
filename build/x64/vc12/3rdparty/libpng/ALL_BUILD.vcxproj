@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{B78F231D-3814-4CC9-8B1A-721815E3BDF2}</ProjectGUID>
+    <ProjectGUID>{E3548D54-0880-47A5-84D6-119CBA15847D}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -95,7 +95,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/3rdparty/libpng/libpng.vcxproj">
-      <Project>FB33A813-84C1-403B-996C-5095320956FC</Project>
+      <Project>7C804894-23E5-4F7B-8532-F09E00332A71</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

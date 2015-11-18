@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{492576FF-06A2-4B98-875D-5C6D4B83989C}</ProjectGUID>
+    <ProjectGUID>{03382E0D-CCE8-4CB5-83D3-B105D3E031D3}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>zlib</ProjectName>
@@ -180,7 +180,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x86/vc12/ZERO_CHECK.vcxproj">
-      <Project>32EA217F-1AFC-4CEE-942B-0A00CBE82EE1</Project>
+      <Project>7C0D53E1-85FE-4E1F-BD9A-3044827A2DAB</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

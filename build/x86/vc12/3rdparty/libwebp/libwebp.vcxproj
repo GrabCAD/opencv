@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{14324464-7B05-4CC2-B719-D3DE86FCA98B}</ProjectGUID>
+    <ProjectGUID>{020D35CC-3936-4DD9-B1EE-489AF7A736DC}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>libwebp</ProjectName>
@@ -265,7 +265,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x86/vc12/ZERO_CHECK.vcxproj">
-      <Project>32EA217F-1AFC-4CEE-942B-0A00CBE82EE1</Project>
+      <Project>7C0D53E1-85FE-4E1F-BD9A-3044827A2DAB</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

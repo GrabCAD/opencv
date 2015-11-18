@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{B78F231D-3814-4CC9-8B1A-721815E3BDF2}</ProjectGUID>
+    <ProjectGUID>{E3548D54-0880-47A5-84D6-119CBA15847D}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -95,7 +95,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/apps/createsamples/opencv_createsamples.vcxproj">
-      <Project>A1647548-302A-400B-966E-AAA1C6F3B1A0</Project>
+      <Project>331F154E-DDA1-4C73-AE0A-D4685CB17D37</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

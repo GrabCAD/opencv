@@ -591,10 +591,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Include">
-      <UniqueIdentifier>{36955CE0-75B3-41FC-9610-19C9CACA641A}</UniqueIdentifier>
+      <UniqueIdentifier>{DEC303B5-8C08-4EB0-9B03-27FA300D12D5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src">
-      <UniqueIdentifier>{A67832BA-631A-4C1D-A483-F97DACA2AF75}</UniqueIdentifier>
+      <UniqueIdentifier>{0FCC91A9-6067-45B3-9278-99F9E0142AB2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

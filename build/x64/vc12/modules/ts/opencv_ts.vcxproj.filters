@@ -72,22 +72,22 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Include\opencv2">
-      <UniqueIdentifier>{7265C934-E89F-45BB-B2D0-2F47A6D83D1F}</UniqueIdentifier>
+      <UniqueIdentifier>{AF0E9556-652D-46B2-9F3D-A2F01B1D4348}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\opencv2\ts">
-      <UniqueIdentifier>{BCEF8BF7-124B-4A03-BEAF-8A59E014D2FD}</UniqueIdentifier>
+      <UniqueIdentifier>{CDE1EF20-E6A8-4616-A836-324E8591B505}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{F3E330A9-0D7B-4F56-8749-1F53F71561D2}</UniqueIdentifier>
+      <UniqueIdentifier>{AA580794-ED41-4E3C-8FBC-2D0877888B7C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D149BE91-1CB4-4BDC-87E5-D97F63990F6A}</UniqueIdentifier>
+      <UniqueIdentifier>{42174109-8810-4525-A0E9-564A849CDEB1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src">
-      <UniqueIdentifier>{A67832BA-631A-4C1D-A483-F97DACA2AF75}</UniqueIdentifier>
+      <UniqueIdentifier>{0FCC91A9-6067-45B3-9278-99F9E0142AB2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include">
-      <UniqueIdentifier>{36955CE0-75B3-41FC-9610-19C9CACA641A}</UniqueIdentifier>
+      <UniqueIdentifier>{DEC303B5-8C08-4EB0-9B03-27FA300D12D5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

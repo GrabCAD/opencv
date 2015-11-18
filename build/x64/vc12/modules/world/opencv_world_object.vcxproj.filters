@@ -1547,326 +1547,326 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="opencv_objdetect\Src">
-      <UniqueIdentifier>{76F0F30E-6A32-47D5-8377-12F8730F53DA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_objdetect\Include">
-      <UniqueIdentifier>{CD614F35-7D47-439C-BAF2-8132FC455C04}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_core\Src">
-      <UniqueIdentifier>{8FE88F21-BFE5-43FA-BDB6-00B8A2E86083}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_core\Include">
-      <UniqueIdentifier>{6C77EAD0-EA3B-4F31-88EB-32E77863BAC6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_video\Src">
-      <UniqueIdentifier>{FB288100-9489-4195-B5C7-F0E68F90DCFA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_video\Include">
-      <UniqueIdentifier>{EA9AD65B-7E0D-4448-8EB6-D8CDF53C6DC4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_superres\Src">
-      <UniqueIdentifier>{2431A30C-1118-4CB4-B317-1B99D0DCE0EC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_superres\Include">
-      <UniqueIdentifier>{53B95002-948B-4A07-9B7B-68160F1D72AA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Src">
-      <UniqueIdentifier>{D2E596CA-B658-446E-975C-B6FBC3DF0901}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Include">
-      <UniqueIdentifier>{F26A290F-5BAC-4755-9FF1-EB0E60EC4852}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_ml\Src">
-      <UniqueIdentifier>{D1A936B7-F482-4AC9-B25A-266C9533BD76}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_ml\Include">
-      <UniqueIdentifier>{6CF98DCF-8FEA-4531-8019-1199BCCF42EB}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Src">
-      <UniqueIdentifier>{1CB93BD0-E336-4187-8164-E5BDEC8AB9C3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Include">
-      <UniqueIdentifier>{89E75EB2-CE7F-4F45-BD4A-522E6E49C880}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_hal\Src">
-      <UniqueIdentifier>{32272287-3D65-4997-9F0C-BD7595FE07C5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_hal\Include">
-      <UniqueIdentifier>{45CF3B53-838B-4FBC-A766-7EC7C059EE36}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_core\Src\opencl\runtime">
-      <UniqueIdentifier>{95C8B8AC-A0C6-479C-B652-A10D9F78A89D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_core\Src\opencl\kernels">
-      <UniqueIdentifier>{CD66F80F-85FD-4D30-AF21-7361FE335D3D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_flann\Src">
-      <UniqueIdentifier>{849DAE4B-9511-42E9-8734-43AC3D95C2FF}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_flann\Include">
-      <UniqueIdentifier>{A095C9BA-A211-4E28-8031-A8A8ACE7C3DB}</UniqueIdentifier>
-    </Filter>
     <Filter Include="opencv_shape\Src">
-      <UniqueIdentifier>{A6C0BB4C-B3FB-452B-BD0F-618C92E81C72}</UniqueIdentifier>
+      <UniqueIdentifier>{C14F0A71-348A-4D35-9B2F-65B88E2C2D54}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_shape\Include">
-      <UniqueIdentifier>{8EF8DC66-BF31-4757-9D3E-5B969A9B2BAB}</UniqueIdentifier>
+      <UniqueIdentifier>{8F42F19E-7CAF-4A02-B32C-810CF42B141A}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Src">
-      <UniqueIdentifier>{FDE7EEBE-2D30-41BB-90E3-D437471700D7}</UniqueIdentifier>
+      <UniqueIdentifier>{53529D2D-E127-4491-974B-C168B24C429E}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Include">
-      <UniqueIdentifier>{93ABE95E-7A9B-400C-9FAB-47089B50B21D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_features2d\Src">
-      <UniqueIdentifier>{8D95141B-86A7-4E02-B1C5-E25A44760CB4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_features2d\Include">
-      <UniqueIdentifier>{AB19E1B1-E505-4BC0-9A2E-264478D25BF9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_calib3d\Src">
-      <UniqueIdentifier>{2AD0800E-4365-4A01-8E9C-96EA268A8368}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_calib3d\Include">
-      <UniqueIdentifier>{421FB3DC-7A28-4E8F-A266-B75566A930D9}</UniqueIdentifier>
+      <UniqueIdentifier>{175C90B7-7C2D-46A2-B854-BEC93EDBD5DC}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_features2d\Src\kaze">
-      <UniqueIdentifier>{1E41BA77-A830-4EE3-A35B-4C31854FA902}</UniqueIdentifier>
+      <UniqueIdentifier>{57BC1F40-3D62-4A20-829C-EA26AA7C1D5F}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_features2d\Src\opencl">
-      <UniqueIdentifier>{9A850FD4-DCC1-4477-A9B9-2DA3E524FC7F}</UniqueIdentifier>
+      <UniqueIdentifier>{15AB6707-A8B3-49DD-9976-1F161E5B4F8C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_videostab\Src">
-      <UniqueIdentifier>{2F23976C-A346-4AB9-9AD5-A09DCE07C483}</UniqueIdentifier>
+    <Filter Include="opencv_superres\Src">
+      <UniqueIdentifier>{1EEA8762-E6D0-4A32-9AE6-C6AE29539728}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_videostab\Include">
-      <UniqueIdentifier>{DD025713-D46B-4A93-B123-AE4863149EA2}</UniqueIdentifier>
+    <Filter Include="opencv_superres\Include">
+      <UniqueIdentifier>{3AE76DBB-E55B-41F9-9504-E5FCA2783889}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_hal\Include\opencv2">
-      <UniqueIdentifier>{2BDBA64C-80FC-4731-8C12-67CB2FD27877}</UniqueIdentifier>
+    <Filter Include="opencv_hal\Src">
+      <UniqueIdentifier>{7573607B-3DA1-4EA6-9D63-B80D54F50498}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_hal\Include\opencv2\hal">
-      <UniqueIdentifier>{CA707725-0874-4AD2-A0FB-B6B14BC1EB4D}</UniqueIdentifier>
+    <Filter Include="opencv_hal\Include">
+      <UniqueIdentifier>{57B66E05-FDF6-4114-9288-E5EE7EEE77EB}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_core\Src\opencl">
-      <UniqueIdentifier>{D6A5C3FE-14F6-4760-AB33-EADAA98930B9}</UniqueIdentifier>
+    <Filter Include="opencv_photo\Src">
+      <UniqueIdentifier>{DEFA7742-7000-4505-A29F-F719AD9E6CDE}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_core\Src\opencl\runtime\autogenerated">
-      <UniqueIdentifier>{9930A358-EE6B-4735-B5AB-9DD517874773}</UniqueIdentifier>
+    <Filter Include="opencv_photo\Include">
+      <UniqueIdentifier>{878FE74D-FC10-40B7-9422-299F5560B172}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_core\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{6CEEBAB4-C334-4344-A93D-B33632BACA0A}</UniqueIdentifier>
+    <Filter Include="opencv_imgproc\Src">
+      <UniqueIdentifier>{2B90ABA2-FA4B-4404-BC63-18722BCDAC16}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_flann\Include\opencv2">
-      <UniqueIdentifier>{AF3DD490-0CA1-4D2F-BC01-D531244CCA13}</UniqueIdentifier>
+    <Filter Include="opencv_imgproc\Include">
+      <UniqueIdentifier>{5278D68E-3293-4BD0-8E09-66E1CAE165D5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_core\Include\opencv2">
-      <UniqueIdentifier>{9CD20F95-5C59-41DC-9C06-D189372C678B}</UniqueIdentifier>
+    <Filter Include="opencv_ml\Src">
+      <UniqueIdentifier>{672AF177-35F4-48AC-A6BE-C2EF4284030F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_flann\Include\opencv2\flann">
-      <UniqueIdentifier>{02DFD750-DCCB-45FF-9084-EDCF98971833}</UniqueIdentifier>
+    <Filter Include="opencv_ml\Include">
+      <UniqueIdentifier>{68D567C3-D712-4B5D-8C75-A074D276BA1F}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_core\Include\opencv2\core">
-      <UniqueIdentifier>{087164E4-D636-4568-A9E0-0E9BDAC00CCB}</UniqueIdentifier>
+    <Filter Include="opencv_features2d\Src">
+      <UniqueIdentifier>{11AB71C2-47E2-4D32-8605-3F6F57B840F1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{D149BE91-1CB4-4BDC-87E5-D97F63990F6A}</UniqueIdentifier>
+    <Filter Include="opencv_features2d\Include">
+      <UniqueIdentifier>{4D5EECEA-D960-4693-B405-5F20D0E894F8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="CMake Rules">
-      <UniqueIdentifier>{330BDCF6-9113-4ED6-A48D-859DD3AFBD1A}</UniqueIdentifier>
+    <Filter Include="opencv_video\Src">
+      <UniqueIdentifier>{47370715-12CB-46CE-995B-86F3F0B1D414}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_hal">
-      <UniqueIdentifier>{705F26B9-0E05-4C36-9C1C-7AEFD322C092}</UniqueIdentifier>
+    <Filter Include="opencv_video\Include">
+      <UniqueIdentifier>{830566B7-6A26-47A2-8E8E-D206B710B16E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_core">
-      <UniqueIdentifier>{A1EE699B-8326-4138-BC7F-67D01080C241}</UniqueIdentifier>
+    <Filter Include="opencv_flann\Src">
+      <UniqueIdentifier>{0B37C776-7D07-4B7D-A82D-F0B869069A1D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_flann">
-      <UniqueIdentifier>{999DD96D-B244-4D60-BD36-168B1B8AFC5D}</UniqueIdentifier>
+    <Filter Include="opencv_flann\Include">
+      <UniqueIdentifier>{59D05E2D-3E04-46B5-B0B8-33A49DE0A610}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_imgproc">
-      <UniqueIdentifier>{02D7EDE9-697E-47C0-A799-4E5EBA4B1ABA}</UniqueIdentifier>
+    <Filter Include="opencv_core\Src\opencl\runtime">
+      <UniqueIdentifier>{47D15FA7-093D-4FD3-B292-469AEDD06E6C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_ml">
-      <UniqueIdentifier>{2D9BF677-E43A-4B51-9486-BA60CB757220}</UniqueIdentifier>
+    <Filter Include="opencv_core\Src\opencl\kernels">
+      <UniqueIdentifier>{76A3B01D-EEA1-47D8-9508-A15CD5C4EEFB}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_photo">
-      <UniqueIdentifier>{FD8E9689-B4E0-41AB-9C11-97B7871905AF}</UniqueIdentifier>
+    <Filter Include="opencv_objdetect\Src">
+      <UniqueIdentifier>{AB28E348-ACF7-4448-A499-7EA276DA6012}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_video">
-      <UniqueIdentifier>{DA254DC5-B89B-4632-A13C-5DC316691E6F}</UniqueIdentifier>
+    <Filter Include="opencv_objdetect\Include">
+      <UniqueIdentifier>{3B4E707D-241A-4577-ACA0-AE95ACD1CDC6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Src">
-      <UniqueIdentifier>{A67832BA-631A-4C1D-A483-F97DACA2AF75}</UniqueIdentifier>
+    <Filter Include="opencv_core\Src">
+      <UniqueIdentifier>{B4958E46-5597-4F4B-B83B-B92E9749D3D5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Include">
-      <UniqueIdentifier>{36955CE0-75B3-41FC-9610-19C9CACA641A}</UniqueIdentifier>
+    <Filter Include="opencv_core\Include">
+      <UniqueIdentifier>{C731F050-3D2D-477A-8D4B-B13F3CF507C4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_shape">
-      <UniqueIdentifier>{A247477E-A2B5-416D-9927-7F2DEF3E8ABF}</UniqueIdentifier>
+    <Filter Include="opencv_calib3d\Src">
+      <UniqueIdentifier>{B07D9FA2-A0D4-4FE8-9950-B1F938F753BA}</UniqueIdentifier>
     </Filter>
-    <Filter Include="opencv_objdetect">
-      <UniqueIdentifier>{F2EDC4EE-1AAB-46BD-B91C-128261B25B67}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_superres">
-      <UniqueIdentifier>{1C48A860-22F6-4409-8720-2C97A4D8E1A4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_features2d">
-      <UniqueIdentifier>{97A32304-528A-4533-AAAA-884EB0FBC06D}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_calib3d">
-      <UniqueIdentifier>{DECEE1C1-52D4-46DF-B6A0-EF0283528791}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_stitching">
-      <UniqueIdentifier>{4D85E26A-BAE8-41CF-89BC-44D263F494FA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_videostab">
-      <UniqueIdentifier>{C634C37A-8EF6-48B2-9080-8751B3491480}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Src\opencl">
-      <UniqueIdentifier>{30D938C2-954C-444D-953D-2F0181A74298}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Src\opencl\kernels">
-      <UniqueIdentifier>{6447E57A-0464-46A7-8169-E5B4FAA4C989}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{C8AD703A-F207-40B8-B1A3-21F8F01303FC}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Include\opencv2">
-      <UniqueIdentifier>{E5999868-CF99-41D5-92F9-41C0824CC8EA}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_imgproc\Include\opencv2\imgproc">
-      <UniqueIdentifier>{98FD9903-552A-4E3C-BEC5-9AF160E5F7B7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_ml\Include\opencv2">
-      <UniqueIdentifier>{189E19F7-4787-4761-B25B-443FF33D09DF}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_ml\Include\opencv2\ml">
-      <UniqueIdentifier>{6D4206E0-F8C5-483C-AB05-A33862063C57}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Src\opencl">
-      <UniqueIdentifier>{22CD9384-7A04-434A-A177-0E1AAAEDA122}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Src\opencl\kernels">
-      <UniqueIdentifier>{23F6DB72-9C57-4992-91CF-BF0C64EF4D40}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{48AD6899-E542-4614-948C-C4ACB7F560DF}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Include\opencv2">
-      <UniqueIdentifier>{4D7161AC-AAC7-4A48-BE8A-A0C7C4ED0A5B}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_photo\Include\opencv2\photo">
-      <UniqueIdentifier>{FCA6BD84-3472-4F53-B3A0-E5BFEB6ABC47}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_video\Src\opencl">
-      <UniqueIdentifier>{BA14FF2F-592B-49D1-9F5B-9AABFFB0C611}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_video\Src\opencl\kernels">
-      <UniqueIdentifier>{DF58532E-58E3-4B40-8476-3E5FF593F7A1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="opencv_video\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{154A3767-10DF-45A4-8586-5D165A285FAA}</UniqueIdentifier>
+    <Filter Include="opencv_calib3d\Include">
+      <UniqueIdentifier>{CE003E25-31CC-438D-B701-49050F726C4A}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_video\Include\opencv2">
-      <UniqueIdentifier>{DF9DFD6D-DB41-4257-9D72-398EC1941E4F}</UniqueIdentifier>
+      <UniqueIdentifier>{57EBA380-832A-4B47-8597-6C5EF3D7B5DF}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_video\Include\opencv2\video">
-      <UniqueIdentifier>{169A3D81-48AA-4ABF-80E6-F31E9D1FA321}</UniqueIdentifier>
+      <UniqueIdentifier>{F04EF003-3110-44D4-BC1E-193D45EE5E5A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src\grfmts">
-      <UniqueIdentifier>{A4061412-829F-4FA9-9346-B24F82472702}</UniqueIdentifier>
+      <UniqueIdentifier>{FAC51872-37B7-43F6-BA06-32A5BAF7E3F3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include\opencv2">
-      <UniqueIdentifier>{7265C934-E89F-45BB-B2D0-2F47A6D83D1F}</UniqueIdentifier>
+      <UniqueIdentifier>{AF0E9556-652D-46B2-9F3D-A2F01B1D4348}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_shape\Include\opencv2">
-      <UniqueIdentifier>{1CA5DC38-0130-4302-A0AE-5BB358B264F7}</UniqueIdentifier>
+      <UniqueIdentifier>{A52A7BD2-9D3E-46F9-BA14-4B84F702AA74}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_shape\Include\opencv2\shape">
-      <UniqueIdentifier>{0F924CC0-9910-4E0B-BF93-A75D5377C511}</UniqueIdentifier>
+      <UniqueIdentifier>{CB57AA97-DBB8-48EA-9972-41ECD02AA48F}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_objdetect\Src\opencl">
-      <UniqueIdentifier>{BBE88401-8E1D-4FD1-A9D2-68E31B2FBD4A}</UniqueIdentifier>
+      <UniqueIdentifier>{9BFECD83-BC6E-4580-8321-EDFE5BB9CD18}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_objdetect\Src\opencl\kernels">
-      <UniqueIdentifier>{091DBA89-91A2-48A9-9558-CAFCA0B7C701}</UniqueIdentifier>
+      <UniqueIdentifier>{FDBE00C4-F363-483B-9EE7-DBCCE0C300E3}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_objdetect\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{660AD8F5-26B7-460F-AA90-70A49BAE0026}</UniqueIdentifier>
+      <UniqueIdentifier>{764C0EA1-34AB-40D8-BF83-49FD2BE27713}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_objdetect\Include\opencv2">
-      <UniqueIdentifier>{5BAF65F5-D5DF-4FD4-9DBA-C441DD9214AC}</UniqueIdentifier>
+      <UniqueIdentifier>{77AFBDB5-098A-4B7F-8DA1-716BB015EB24}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_objdetect\Include\opencv2\objdetect">
-      <UniqueIdentifier>{8571A1A4-4BBA-448E-A848-EE6BC83CC366}</UniqueIdentifier>
+      <UniqueIdentifier>{2E6B6DB6-47CD-4B03-AC8B-A93559BD0E15}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_superres\Src\opencl">
-      <UniqueIdentifier>{B8E2398A-8F32-4BA1-8335-2EC17B94A6D5}</UniqueIdentifier>
+      <UniqueIdentifier>{B507ED9C-93C4-4C34-8192-161C99B9D78C}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_superres\Src\opencl\kernels">
-      <UniqueIdentifier>{9C0F9DCC-3826-4A0A-901D-153C3BE20D6E}</UniqueIdentifier>
+      <UniqueIdentifier>{F1345C1F-78B1-4368-B9FA-E08471A3953E}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_superres\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{C37E92A1-CE74-4954-83D3-629FB77D2BC1}</UniqueIdentifier>
+      <UniqueIdentifier>{70095E66-4D64-4639-8025-24D68C709990}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_superres\Include\opencv2">
-      <UniqueIdentifier>{5A7796DE-4C4A-47CB-987D-A4390BDECBE7}</UniqueIdentifier>
+      <UniqueIdentifier>{E4512CDD-4A81-47B6-A9BD-C8F8623FBA7D}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_superres\Include\opencv2\superres">
-      <UniqueIdentifier>{FA3C39FC-032F-4B21-AC65-22ACEBAED476}</UniqueIdentifier>
+      <UniqueIdentifier>{51DABEED-D7F2-4AFC-800B-A40D77DBF9E1}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_features2d\Src\opencl\kernels">
-      <UniqueIdentifier>{12F72F1A-4D62-4105-BDB0-7142BA669419}</UniqueIdentifier>
+      <UniqueIdentifier>{9DBE530E-E26C-40B3-AE1F-6814BDBA21E8}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_features2d\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{10BB29E7-9E95-4841-8AD6-CB8BE4F23018}</UniqueIdentifier>
+      <UniqueIdentifier>{700CE80D-8069-440F-92BA-38384439183C}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_features2d\Include\opencv2">
-      <UniqueIdentifier>{CCC43CFF-2E63-47BD-ACBF-8BF5624DD399}</UniqueIdentifier>
+      <UniqueIdentifier>{3760A428-35F3-4B54-8017-B7A492777A0A}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_features2d\Include\opencv2\features2d">
-      <UniqueIdentifier>{6D94C352-F1CF-446C-9CBF-A4E2E219BDAC}</UniqueIdentifier>
+      <UniqueIdentifier>{4451E0D0-6D21-4960-997F-90BC27148315}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_calib3d\Src\opencl">
-      <UniqueIdentifier>{154FD1D4-65E7-47D3-ACD5-B20F3745FDC3}</UniqueIdentifier>
+      <UniqueIdentifier>{61BE52EE-8B9A-43C2-81FF-B6412C92CFC9}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_calib3d\Src\opencl\kernels">
-      <UniqueIdentifier>{71B948EA-1F94-4E85-920C-C4976487D8BA}</UniqueIdentifier>
+      <UniqueIdentifier>{D2DBBC65-289B-4BA0-B43A-D6B7098041FB}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_calib3d\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{7D4E0E6E-66D1-4918-9BAB-BB23766305D0}</UniqueIdentifier>
+      <UniqueIdentifier>{6DE75251-4674-4672-A306-B0762FD8DF79}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_calib3d\Include\opencv2">
-      <UniqueIdentifier>{96C64C7B-5990-4C24-856E-0EBE1B6C1488}</UniqueIdentifier>
+      <UniqueIdentifier>{33ABD408-4A6A-445E-82F2-D95524E835E5}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_calib3d\Include\opencv2\calib3d">
-      <UniqueIdentifier>{B65C6CF4-9A09-4DE1-91E7-76EC6E5729C2}</UniqueIdentifier>
+      <UniqueIdentifier>{5633F4EB-0B3D-4BC2-9E23-B730F856693E}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Src\opencl">
-      <UniqueIdentifier>{8CA4FA79-BD11-48D0-A724-A6F35E5B273C}</UniqueIdentifier>
+      <UniqueIdentifier>{804676D1-6B4C-42AE-A6AF-1EAE9D867FBA}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Src\opencl\kernels">
-      <UniqueIdentifier>{E1845075-ACCB-45F5-A3EB-22FB3B7E497C}</UniqueIdentifier>
+      <UniqueIdentifier>{6DE636A3-5C95-441A-82B4-76AD4D310ABB}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Src\opencl\kernels\autogenerated">
-      <UniqueIdentifier>{9A0E82A7-44B8-40BF-93A9-3037BEC1D7CE}</UniqueIdentifier>
+      <UniqueIdentifier>{B1D33E49-610B-4AEA-9138-BE2BB770C2DC}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Include\opencv2">
-      <UniqueIdentifier>{326191A7-0A24-4CF2-B579-710C48CF4560}</UniqueIdentifier>
+      <UniqueIdentifier>{0B4F1899-0D39-4AAD-AE5E-311E10506329}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Include\opencv2\stitching">
-      <UniqueIdentifier>{83E25A28-4BFF-4424-8EBC-73292E5EA1D4}</UniqueIdentifier>
+      <UniqueIdentifier>{573DCB2D-0814-4C50-92AF-6C9DA68242B2}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_stitching\Include\opencv2\stitching\detail">
-      <UniqueIdentifier>{3047C0F5-035F-4F3E-B67C-C5EDE2FEF42C}</UniqueIdentifier>
+      <UniqueIdentifier>{1A8C9D90-A9FB-4048-861B-E64481F78822}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_videostab\Include\opencv2">
-      <UniqueIdentifier>{D29F50CD-B7B4-4A29-A76D-FE3C6A884763}</UniqueIdentifier>
+      <UniqueIdentifier>{49AD3955-E565-4B18-8A88-88598F1DFF91}</UniqueIdentifier>
     </Filter>
     <Filter Include="opencv_videostab\Include\opencv2\videostab">
-      <UniqueIdentifier>{60E9155F-FDDA-428B-88F8-79FC78188659}</UniqueIdentifier>
+      <UniqueIdentifier>{B05203F9-3DD4-4961-8300-04CC699ED751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{42174109-8810-4525-A0E9-564A849CDEB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E3D14526-D775-4EF6-995C-574CE31A6E28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_hal">
+      <UniqueIdentifier>{1DEEE562-FF82-4603-BFC3-6F7DEE9FFCDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core">
+      <UniqueIdentifier>{99E024BA-EAA7-4D79-9F53-2D233310439B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann">
+      <UniqueIdentifier>{EE8EEA37-8AE2-47C8-9E66-5F88450E6721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc">
+      <UniqueIdentifier>{DCDF5DE3-3EE2-4D59-BA70-75AD5B17C976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml">
+      <UniqueIdentifier>{FD921E2A-3DC1-4759-A56A-8918A3E6C8B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo">
+      <UniqueIdentifier>{C5E6EEF8-87E6-4A46-9C89-A29DF41AAA6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video">
+      <UniqueIdentifier>{E65D5430-5F51-4AEF-BDA0-387973FEB5A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{0FCC91A9-6067-45B3-9278-99F9E0142AB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{DEC303B5-8C08-4EB0-9B03-27FA300D12D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_shape">
+      <UniqueIdentifier>{5B301418-4C14-45BC-A5BF-CB8382462D32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_objdetect">
+      <UniqueIdentifier>{4A6D9E0E-0523-4006-A0B6-79B3591A13CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_superres">
+      <UniqueIdentifier>{BBAE81E5-EEBE-49EA-ADF5-32BB5E02FEC3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_features2d">
+      <UniqueIdentifier>{02BC9DCB-EFF1-481B-945D-BF92E910D7AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_calib3d">
+      <UniqueIdentifier>{3A5FB55D-859F-40AD-8E4B-5A317828B4D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_stitching">
+      <UniqueIdentifier>{2FEF3FDB-D5B9-4E51-BE3D-FD061D056A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab">
+      <UniqueIdentifier>{47A1B56E-1203-40F2-98F7-C5652D7FF3AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_hal\Include\opencv2\hal">
+      <UniqueIdentifier>{F4E505CB-120E-470B-82F9-FA3257DFB599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{B666CF82-320B-4018-90C9-F3A2F40145C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2">
+      <UniqueIdentifier>{8D667C83-C06F-42D2-B0C5-13C8D42929DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl">
+      <UniqueIdentifier>{DF37D0B8-A2BD-4EF2-8B61-53EB1952C9A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include\opencv2">
+      <UniqueIdentifier>{40D66745-69D4-4F8C-A5C8-B6D757A6D8B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl">
+      <UniqueIdentifier>{F21AA552-D826-42D8-8EED-1262ED349A02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_hal\Include\opencv2">
+      <UniqueIdentifier>{9538AD27-6658-4800-B2BF-F41A14137B89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{8BA031C8-4174-4DDB-85AD-30C68EE6E6B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Src\opencl\runtime\autogenerated">
+      <UniqueIdentifier>{BCC5A91C-2351-4E69-A04E-FF5CCF2F68B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_flann\Include\opencv2\flann">
+      <UniqueIdentifier>{2530A1D4-AE15-4897-B880-F9BB56BD9310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include\opencv2">
+      <UniqueIdentifier>{3897C446-7B8B-4F71-A6EC-56A9BECEBC76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_core\Include\opencv2\core">
+      <UniqueIdentifier>{0E77395A-0525-49FD-812E-BD99FF3CB086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl">
+      <UniqueIdentifier>{978524AC-09C3-4D8B-8452-5DF537BE28E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2">
+      <UniqueIdentifier>{B6AE8387-8522-4830-9886-1FBF99C7B270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2">
+      <UniqueIdentifier>{9187665E-2521-4C12-ADAA-2378AA214694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Src\opencl\kernels">
+      <UniqueIdentifier>{6E1277E8-CE56-4A82-B068-5C84384F0242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Include\opencv2\photo">
+      <UniqueIdentifier>{3E9B8E55-CA94-42E4-81F7-8C532AC1D546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_ml\Include\opencv2\ml">
+      <UniqueIdentifier>{B2D0EE07-8F92-4E31-B31D-E0E4ED340D56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_imgproc\Include\opencv2\imgproc">
+      <UniqueIdentifier>{67574818-3EDB-4272-ACC6-28B70C5A55C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{07301B3E-9F15-4DDC-BAC7-7943014F0064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{94C80F53-0936-4A65-8CC5-CC7AE3622A32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl">
+      <UniqueIdentifier>{40AC292C-7A6A-49C6-96C2-66115C4BBF2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_video\Src\opencl\kernels">
+      <UniqueIdentifier>{4D7BD703-0459-45AF-94B2-D4247C7DA62E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_photo\Src\opencl\kernels">
+      <UniqueIdentifier>{AC7FD991-43E4-460B-9EFE-8076748D7522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab\Src">
+      <UniqueIdentifier>{73C5B668-5A04-4379-88DE-DA19BF80EE17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opencv_videostab\Include">
+      <UniqueIdentifier>{03B5AD89-99F5-4C46-BE08-FB0472909B69}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

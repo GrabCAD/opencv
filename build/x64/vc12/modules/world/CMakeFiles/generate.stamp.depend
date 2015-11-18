@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/GIT/opencv/modules/world/CMakeLists.txt
+C:/GIT/opencv/modules/hal/CMakeLists.txt
+C:/GIT/opencv/modules/core/CMakeLists.txt
+C:/GIT/opencv/modules/flann/CMakeLists.txt
+C:/GIT/opencv/modules/imgproc/CMakeLists.txt
+C:/GIT/opencv/modules/ml/CMakeLists.txt
+C:/GIT/opencv/modules/photo/CMakeLists.txt
+C:/GIT/opencv/modules/video/CMakeLists.txt
+C:/GIT/opencv/modules/imgcodecs/CMakeLists.txt
+C:/GIT/opencv/modules/shape/CMakeLists.txt
+C:/GIT/opencv/modules/videoio/CMakeLists.txt
+C:/GIT/opencv/modules/highgui/CMakeLists.txt
+C:/GIT/opencv/modules/objdetect/CMakeLists.txt
+C:/GIT/opencv/modules/superres/CMakeLists.txt
+C:/GIT/opencv/modules/features2d/CMakeLists.txt
+C:/GIT/opencv/modules/calib3d/CMakeLists.txt
+C:/GIT/opencv/modules/stitching/CMakeLists.txt
+C:/GIT/opencv/modules/videostab/CMakeLists.txt

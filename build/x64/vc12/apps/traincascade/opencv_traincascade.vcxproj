@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{6111F93E-D40C-4E75-85F8-2DAA7455FA66}</ProjectGUID>
+    <ProjectGUID>{B5C63CF1-4C5F-4F64-A707-798BAD92496D}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>opencv_traincascade</ProjectName>
@@ -205,10 +205,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/ZERO_CHECK.vcxproj">
-      <Project>115430D8-2C8C-4148-887D-EC975E3A1CD0</Project>
+      <Project>246E7057-077E-4B75-B5C0-A7D162A1F380</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x64/vc12/modules/world/opencv_world.vcxproj">
-      <Project>464D66C4-C984-4A2E-BB0A-07F90296E127</Project>
+      <Project>192491C7-8649-4384-B890-864BEA9D1859</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

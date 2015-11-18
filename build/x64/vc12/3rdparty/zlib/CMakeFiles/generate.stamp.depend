@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/GIT/opencv/3rdparty/zlib/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.3/Modules/CheckIncludeFileCXX.cmake
+C:/GIT/opencv/3rdparty/zlib/zconf.h.cmakein

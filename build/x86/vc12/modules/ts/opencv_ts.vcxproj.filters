@@ -71,23 +71,23 @@
     <CustomBuild Include="..\..\..\..\..\modules\ts\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Include\opencv2">
-      <UniqueIdentifier>{8F6F83DD-08A0-47D7-A16D-1E74E2D5EBAF}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\opencv2\ts">
-      <UniqueIdentifier>{A4D313A5-4B92-424E-B7E9-6E171D8DEDED}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{83B7E353-4B59-49BD-BA20-99B9BD70C4BD}</UniqueIdentifier>
+      <UniqueIdentifier>{D7EF2104-9B75-4FF9-92DE-92C6B590AB71}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5674ABEA-FDCB-44EE-8FC5-ADA106789AA5}</UniqueIdentifier>
+      <UniqueIdentifier>{D1A06FA1-4EDA-4A2D-9434-6562B55A4908}</UniqueIdentifier>
     </Filter>
     <Filter Include="Src">
-      <UniqueIdentifier>{83B22C88-7642-45F7-9D51-963C7BB8EB88}</UniqueIdentifier>
+      <UniqueIdentifier>{732629A7-C940-422D-98DF-FD6D64D56BF0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Include">
-      <UniqueIdentifier>{C40CAC5C-B8DA-4770-9E2B-5C53D856A38F}</UniqueIdentifier>
+      <UniqueIdentifier>{4FBAD335-C4E5-413E-B35E-AED5418908F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\ts">
+      <UniqueIdentifier>{30C46AAD-6991-4ECF-8F11-78538BADD3CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{D5CCE766-6E86-421B-BD59-A026862FF068}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

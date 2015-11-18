@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{43DB6B38-0DCF-416B-AB86-BC175BBCC7A5}</ProjectGUID>
+    <ProjectGUID>{CF1B96BE-32C3-43D5-A800-059E0C791517}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>opencv_createsamples</ProjectName>
@@ -191,10 +191,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x86/vc12/ZERO_CHECK.vcxproj">
-      <Project>32EA217F-1AFC-4CEE-942B-0A00CBE82EE1</Project>
+      <Project>7C0D53E1-85FE-4E1F-BD9A-3044827A2DAB</Project>
     </ProjectReference>
     <ProjectReference Include="C:/GIT/opencv/build/x86/vc12/modules/world/opencv_world.vcxproj">
-      <Project>6D082129-B25C-4E3D-A8C5-62FF50BA14F9</Project>
+      <Project>9B7117AE-77FE-46D2-8388-519329785994</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

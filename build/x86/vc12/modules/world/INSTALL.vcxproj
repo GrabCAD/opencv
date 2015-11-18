@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{63B44C43-631F-412F-B043-78058B58D1F5}</ProjectGUID>
+    <ProjectGUID>{036D57C5-C140-493F-8EE3-D4C0D79C6498}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>INSTALL</ProjectName>
@@ -117,7 +117,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/GIT/opencv/build/x86/vc12/modules/world/ALL_BUILD.vcxproj">
-      <Project>A8F379A0-C192-4896-833C-EFAC40246AC2</Project>
+      <Project>F17B04C0-BC93-4E6C-93B3-165E22EDE4B5</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
