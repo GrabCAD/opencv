@@ -58,7 +58,7 @@ OpenCV Needs You !!!
 Since OpenCV is an open source initiative, all are welcome to make contributions to the library,
 documentation, and tutorials. If you find any mistake in this tutorial (from a small spelling
 mistake to an egregious error in code or concept), feel free to correct it by cloning OpenCV in
-[GitHub](https://github.com/Itseez/opencv) and submitting a pull request. OpenCV developers will
+[GitHub](https://github.com/opencv/opencv) and submitting a pull request. OpenCV developers will
 check your pull request, give you important feedback and (once it passes the approval of the
 reviewer) it will be merged into OpenCV. You will then become an open source contributor :-)
 
@@ -80,7 +80,7 @@ Additional Resources
 --------------------
 
 -#  A Quick guide to Python - [A Byte of Python](http://swaroopch.com/notes/python/)
-2.  [Basic Numpy Tutorials](http://wiki.scipy.org/Tentative_NumPy_Tutorial)
-3.  [Numpy Examples List](http://wiki.scipy.org/Numpy_Example_List)
+2.  [NumPy Quickstart tutorial](https://numpy.org/devdocs/user/quickstart.html)
+3.  [NumPy Reference](https://numpy.org/devdocs/reference/index.html#reference)
 4.  [OpenCV Documentation](http://docs.opencv.org/)
 5.  [OpenCV Forum](http://answers.opencv.org/questions/)

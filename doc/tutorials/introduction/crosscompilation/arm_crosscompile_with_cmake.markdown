@@ -1,6 +1,10 @@
 Cross compilation for ARM based Linux systems {#tutorial_arm_crosscompile_with_cmake}
 =============================================
 
+@prev_tutorial{tutorial_ios_install}
+@next_tutorial{tutorial_building_tegra_cuda}
+
+
 This steps are tested on Ubuntu Linux 12.04, but should work for other Linux distributions. I case
 of other distributions package names and names of cross compilation tools may differ. There are
 several popular EABI versions that are used on ARM platform. This tutorial is written for *gnueabi*
@@ -33,7 +37,7 @@ Getting OpenCV Source Code
 --------------------------
 
 You can use the latest stable OpenCV version available in *sourceforge* or you can grab the latest
-snapshot from our [Git repository](https://github.com/Itseez/opencv.git).
+snapshot from our [Git repository](https://github.com/opencv/opencv.git).
 
 ### Getting the Latest Stable OpenCV Version
 
@@ -42,12 +46,12 @@ snapshot from our [Git repository](https://github.com/Itseez/opencv.git).
 
 ### Getting the Cutting-edge OpenCV from the Git Repository
 
-Launch Git client and clone [OpenCV repository](http://github.com/itseez/opencv)
+Launch Git client and clone [OpenCV repository](http://github.com/opencv/opencv)
 
 In Linux it can be achieved with the following command in Terminal:
 @code{.bash}
 cd ~/<my_working _directory>
-git clone https://github.com/Itseez/opencv.git
+git clone https://github.com/opencv/opencv.git
 @endcode
 
 Building OpenCV

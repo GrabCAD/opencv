@@ -18,14 +18,13 @@
      Homepage:      http://opencv.org
      Online docs:   http://docs.opencv.org
      Q&A forum:     http://answers.opencv.org
-     Issue tracker: http://code.opencv.org
-     GitHub:        https://github.com/Itseez/opencv/
+     GitHub:        https://github.com/opencv/opencv/
    ************************************************** */
 
-#include "opencv2/calib3d/calib3d.hpp"
+#include "opencv2/calib3d.hpp"
 #include "opencv2/imgcodecs.hpp"
-#include "opencv2/highgui/highgui.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui.hpp"
+#include "opencv2/imgproc.hpp"
 
 #include <vector>
 #include <string>
@@ -39,24 +38,24 @@
 using namespace cv;
 using namespace std;
 
-static int print_help()
+static int print_help(char** argv)
 {
     cout <<
             " Given a list of chessboard images, the number of corners (nx, ny)\n"
             " on the chessboards, and a flag: useCalibrated for \n"
             "   calibrated (0) or\n"
             "   uncalibrated \n"
-            "     (1: use cvStereoCalibrate(), 2: compute fundamental\n"
+            "     (1: use stereoCalibrate(), 2: compute fundamental\n"
             "         matrix separately) stereo. \n"
             " Calibrate the cameras and display the\n"
             " rectified results along with the computed disparity images.   \n" << endl;
-    cout << "Usage:\n ./stereo_calib -w board_width -h board_height [-nr /*dot not view results*/] <image list XML/YML file>\n" << endl;
+    cout << "Usage:\n " << argv[0] << " -w=<board_width default=9> -h=<board_height default=6> -s=<square_size default=1.0> <image list XML/YML file default=stereo_calib.xml>\n" << endl;
     return 0;
 }
 
 
 static void
-StereoCalib(const vector<string>& imagelist, Size boardSize,bool displayCorners = false, bool useCalibrated=true, bool showRectified=true)
+StereoCalib(const vector<string>& imagelist, Size boardSize, float squareSize, bool displayCorners = false, bool useCalibrated=true, bool showRectified=true)
 {
     if( imagelist.size() % 2 != 0 )
     {
@@ -65,7 +64,6 @@ StereoCalib(const vector<string>& imagelist, Size boardSize,bool displayCorners 
     }
 
     const int maxScale = 2;
-    const float squareSize = 1.f;  // Set this to your actual square size
     // ARRAY AND VECTOR STORAGE:
 
     vector<vector<Point2f> > imagePoints[2];
@@ -101,7 +99,7 @@ StereoCalib(const vector<string>& imagelist, Size boardSize,bool displayCorners 
                 if( scale == 1 )
                     timg = img;
                 else
-                    resize(img, timg, Size(), scale, scale);
+                    resize(img, timg, Size(), scale, scale, INTER_LINEAR_EXACT);
                 found = findChessboardCorners(timg, boardSize, corners,
                     CALIB_CB_ADAPTIVE_THRESH | CALIB_CB_NORMALIZE_IMAGE);
                 if( found )
@@ -121,7 +119,7 @@ StereoCalib(const vector<string>& imagelist, Size boardSize,bool displayCorners 
                 cvtColor(img, cimg, COLOR_GRAY2BGR);
                 drawChessboardCorners(cimg, boardSize, corners, found);
                 double sf = 640./MAX(img.rows, img.cols);
-                resize(cimg, cimg1, Size(), sf, sf);
+                resize(cimg, cimg1, Size(), sf, sf, INTER_LINEAR_EXACT);
                 imshow("corners", cimg1);
                 char c = (char)waitKey(500);
                 if( c == 27 || c == 'q' || c == 'Q' ) //Allow ESC to quit
@@ -212,7 +210,7 @@ StereoCalib(const vector<string>& imagelist, Size boardSize,bool displayCorners 
     cout << "average epipolar err = " <<  err/npoints << endl;
 
     // save intrinsic parameters
-    FileStorage fs("../data/intrinsics.yml", FileStorage::WRITE);
+    FileStorage fs("intrinsics.yml", FileStorage::WRITE);
     if( fs.isOpened() )
     {
         fs << "M1" << cameraMatrix[0] << "D1" << distCoeffs[0] <<
@@ -347,58 +345,28 @@ int main(int argc, char** argv)
 {
     Size boardSize;
     string imagelistfn;
-    bool showRectified = true;
-
-    for( int i = 1; i < argc; i++ )
+    bool showRectified;
+    cv::CommandLineParser parser(argc, argv, "{w|9|}{h|6|}{s|1.0|}{nr||}{help||}{@input|stereo_calib.xml|}");
+    if (parser.has("help"))
+        return print_help(argv);
+    showRectified = !parser.has("nr");
+    imagelistfn = samples::findFile(parser.get<string>("@input"));
+    boardSize.width = parser.get<int>("w");
+    boardSize.height = parser.get<int>("h");
+    float squareSize = parser.get<float>("s");
+    if (!parser.check())
     {
-        if( string(argv[i]) == "-w" )
-        {
-            if( sscanf(argv[++i], "%d", &boardSize.width) != 1 || boardSize.width <= 0 )
-            {
-                cout << "invalid board width" << endl;
-                return print_help();
-            }
-        }
-        else if( string(argv[i]) == "-h" )
-        {
-            if( sscanf(argv[++i], "%d", &boardSize.height) != 1 || boardSize.height <= 0 )
-            {
-                cout << "invalid board height" << endl;
-                return print_help();
-            }
-        }
-        else if( string(argv[i]) == "-nr" )
-            showRectified = false;
-        else if( string(argv[i]) == "--help" )
-            return print_help();
-        else if( argv[i][0] == '-' )
-        {
-            cout << "invalid option " << argv[i] << endl;
-            return 0;
-        }
-        else
-            imagelistfn = argv[i];
+        parser.printErrors();
+        return 1;
     }
-
-    if( imagelistfn == "" )
-    {
-        imagelistfn = "../data/stereo_calib.xml";
-        boardSize = Size(9, 6);
-    }
-    else if( boardSize.width <= 0 || boardSize.height <= 0 )
-    {
-        cout << "if you specified XML file with chessboards, you should also specify the board width and height (-w and -h options)" << endl;
-        return 0;
-    }
-
     vector<string> imagelist;
     bool ok = readStringList(imagelistfn, imagelist);
     if(!ok || imagelist.empty())
     {
         cout << "can not open " << imagelistfn << " or the string list is empty" << endl;
-        return print_help();
+        return print_help(argv);
     }
 
-    StereoCalib(imagelist, boardSize,false, true, showRectified);
+    StereoCalib(imagelist, boardSize, squareSize, false, true, showRectified);
     return 0;
 }

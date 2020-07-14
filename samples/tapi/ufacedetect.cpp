@@ -28,84 +28,61 @@ void detectAndDraw( UMat& img, Mat& canvas, CascadeClassifier& cascade,
                     CascadeClassifier& nestedCascade,
                     double scale, bool tryflip );
 
-string cascadeName = "../../data/haarcascades/haarcascade_frontalface_alt.xml";
-string nestedCascadeName = "../../data/haarcascades/haarcascade_eye_tree_eyeglasses.xml";
-
 int main( int argc, const char** argv )
 {
     VideoCapture capture;
     UMat frame, image;
     Mat canvas;
-    const string scaleOpt = "--scale=";
-    size_t scaleOptLen = scaleOpt.length();
-    const string cascadeOpt = "--cascade=";
-    size_t cascadeOptLen = cascadeOpt.length();
-    const string nestedCascadeOpt = "--nested-cascade";
-    size_t nestedCascadeOptLen = nestedCascadeOpt.length();
-    const string tryFlipOpt = "--try-flip";
-    size_t tryFlipOptLen = tryFlipOpt.length();
-    String inputName;
-    bool tryflip = false;
 
-    help();
+    string inputName;
+    bool tryflip;
 
     CascadeClassifier cascade, nestedCascade;
-    double scale = 1;
+    double scale;
 
-    for( int i = 1; i < argc; i++ )
+    cv::CommandLineParser parser(argc, argv,
+        "{cascade|data/haarcascades/haarcascade_frontalface_alt.xml|}"
+        "{nested-cascade|data/haarcascades/haarcascade_eye_tree_eyeglasses.xml|}"
+        "{help h ||}{scale|1|}{try-flip||}{@filename||}"
+    );
+    if (parser.has("help"))
     {
-        cout << "Processing " << i << " " <<  argv[i] << endl;
-        if( cascadeOpt.compare( 0, cascadeOptLen, argv[i], cascadeOptLen ) == 0 )
-        {
-            cascadeName.assign( argv[i] + cascadeOptLen );
-            cout << "  from which we have cascadeName= " << cascadeName << endl;
-        }
-        else if( nestedCascadeOpt.compare( 0, nestedCascadeOptLen, argv[i], nestedCascadeOptLen ) == 0 )
-        {
-            if( argv[i][nestedCascadeOpt.length()] == '=' )
-                nestedCascadeName.assign( argv[i] + nestedCascadeOpt.length() + 1 );
-            if( !nestedCascade.load( nestedCascadeName ) )
-                cerr << "WARNING: Could not load classifier cascade for nested objects" << endl;
-        }
-        else if( scaleOpt.compare( 0, scaleOptLen, argv[i], scaleOptLen ) == 0 )
-        {
-            if( !sscanf( argv[i] + scaleOpt.length(), "%lf", &scale ) )
-                scale = 1;
-            cout << " from which we read scale = " << scale << endl;
-        }
-        else if( tryFlipOpt.compare( 0, tryFlipOptLen, argv[i], tryFlipOptLen ) == 0 )
-        {
-            tryflip = true;
-            cout << " will try to flip image horizontally to detect assymetric objects\n";
-        }
-        else if( argv[i][0] == '-' )
-        {
-            cerr << "WARNING: Unknown option " << argv[i] << endl;
-        }
-        else
-            inputName = argv[i];
+        help();
+        return 0;
+    }
+    string cascadeName = samples::findFile(parser.get<string>("cascade"));
+    string nestedCascadeName = samples::findFileOrKeep(parser.get<string>("nested-cascade"));
+    scale = parser.get<double>("scale");
+    tryflip = parser.has("try-flip");
+    inputName = parser.get<string>("@filename");
+    if ( !parser.check())
+    {
+        parser.printErrors();
+        help();
+        return -1;
     }
 
+    if ( !nestedCascade.load( nestedCascadeName ) )
+        cerr << "WARNING: Could not load classifier cascade for nested objects: " << nestedCascadeName << endl;
     if( !cascade.load( cascadeName ) )
     {
-        cerr << "ERROR: Could not load classifier cascade" << endl;
+        cerr << "ERROR: Could not load classifier cascade: " << cascadeName << endl;
         help();
         return -1;
     }
 
     cout << "old cascade: " << (cascade.isOldFormatCascade() ? "TRUE" : "FALSE") << endl;
 
-    if( inputName.empty() || (isdigit(inputName.c_str()[0]) && inputName.c_str()[1] == '\0') )
+    if( inputName.empty() || (isdigit(inputName[0]) && inputName.size() == 1) )
     {
-        int c = inputName.empty() ? 0 : inputName.c_str()[0] - '0';
-        if(!capture.open(c))
-            cout << "Capture from camera #" <<  c << " didn't work" << endl;
+        int camera = inputName.empty() ? 0 : inputName[0] - '0';
+        if(!capture.open(camera))
+            cout << "Capture from camera #" <<  camera << " didn't work" << endl;
     }
     else
     {
-        if( inputName.empty() )
-            inputName = "../data/lena.jpg";
-        image = imread( inputName, 1 ).getUMat(ACCESS_READ);
+        inputName = samples::findFileOrKeep(inputName);
+        imread(inputName, IMREAD_COLOR).copyTo(image);
         if( image.empty() )
         {
             if(!capture.open( inputName ))
@@ -124,7 +101,7 @@ int main( int argc, const char** argv )
 
             detectAndDraw( frame, canvas, cascade, nestedCascade, scale, tryflip );
 
-            int c = waitKey(10);
+            char c = (char)waitKey(10);
             if( c == 27 || c == 'q' || c == 'Q' )
                 break;
         }
@@ -147,16 +124,16 @@ int main( int argc, const char** argv )
                 char buf[1000+1];
                 while( fgets( buf, 1000, f ) )
                 {
-                    int len = (int)strlen(buf), c;
+                    int len = (int)strlen(buf);
                     while( len > 0 && isspace(buf[len-1]) )
                         len--;
                     buf[len] = '\0';
                     cout << "file " << buf << endl;
-                    image = imread( buf, 1 ).getUMat(ACCESS_READ);
+                    imread(samples::findFile(buf), IMREAD_COLOR).copyTo(image);
                     if( !image.empty() )
                     {
                         detectAndDraw( image, canvas, cascade, nestedCascade, scale, tryflip );
-                        c = waitKey(0);
+                        char c = (char)waitKey(0);
                         if( c == 27 || c == 'q' || c == 'Q' )
                             break;
                     }
@@ -196,7 +173,7 @@ void detectAndDraw( UMat& img, Mat& canvas, CascadeClassifier& cascade,
 
     cvtColor( img, gray, COLOR_BGR2GRAY );
     double fx = 1 / scale;
-    resize( gray, smallImg, Size(), fx, fx, INTER_LINEAR );
+    resize( gray, smallImg, Size(), fx, fx, INTER_LINEAR_EXACT );
     equalizeHist( smallImg, smallImg );
 
     cascade.detectMultiScale( smallImg, faces,
@@ -214,7 +191,7 @@ void detectAndDraw( UMat& img, Mat& canvas, CascadeClassifier& cascade,
                                  //|CASCADE_DO_ROUGH_SEARCH
                                  |CASCADE_SCALE_IMAGE,
                                  Size(30, 30) );
-        for( vector<Rect>::const_iterator r = faces2.begin(); r != faces2.end(); r++ )
+        for( vector<Rect>::const_iterator r = faces2.begin(); r != faces2.end(); ++r )
         {
             faces.push_back(Rect(smallImg.cols - r->x - r->width, r->y, r->width, r->height));
         }

@@ -1,6 +1,9 @@
 Using OpenCV with Eclipse (plugin CDT) {#tutorial_linux_eclipse}
 ======================================
 
+@prev_tutorial{tutorial_linux_gcc_cmake}
+@next_tutorial{tutorial_windows_install}
+
 Prerequisites
 -------------
 Two ways, one by forming a project directly, and another by CMake Prerequisites
@@ -96,12 +99,12 @@ Making a project
 
                 /usr/local/lib
 
-            Then in **Libraries(-l)** add the OpenCV libraries that you may need. Usually just the 3 first
+            Then in **Libraries(-l)** add the OpenCV libraries that you may need. Usually just the 4 first
             on the list below are enough (for simple applications) . In my case, I am putting all of them
             since I plan to use the whole bunch:
 
-            opencv_core opencv_imgproc opencv_highgui opencv_ml opencv_video opencv_features2d
-            opencv_calib3d opencv_objdetect opencv_contrib opencv_legacy opencv_flann
+            opencv_core opencv_imgproc opencv_imgcodecs opencv_highgui opencv_ml opencv_videoio opencv_video opencv_features2d
+            opencv_calib3d opencv_objdetect opencv_flann
 
             ![](images/a10.png)
 
@@ -112,7 +115,7 @@ Making a project
             @endcode
             My output (in case you want to check) was:
             @code{.bash}
-            -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann
+            -L/usr/local/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_videoio -lopencv_imgcodecs -lopencv_flann
             @endcode
             Now you are done. Click **OK**
 

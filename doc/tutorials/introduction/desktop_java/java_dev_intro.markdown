@@ -1,6 +1,10 @@
 Introduction to Java Development {#tutorial_java_dev_intro}
 ================================
 
+@prev_tutorial{tutorial_windows_visual_studio_image_watch}
+@next_tutorial{tutorial_java_eclipse}
+
+
 As of OpenCV 2.4.4, OpenCV supports desktop Java development using nearly the same interface as for
 Android development. This guide will help you to create your first Java (or Scala) application using
 OpenCV. We will use either [Apache Ant](http://ant.apache.org/) or [Simple Build Tool
@@ -36,7 +40,7 @@ from the [OpenCV SourceForge repository](http://sourceforge.net/projects/opencvl
 sources.
 
 Another option to get OpenCV sources is to clone [OpenCV git
-repository](https://github.com/Itseez/opencv/). In order to build OpenCV with Java bindings you need
+repository](https://github.com/opencv/opencv/). In order to build OpenCV with Java bindings you need
 JDK (Java Development Kit) (we recommend [Oracle/Sun JDK 6 or
 7](http://www.oracle.com/technetwork/java/javase/downloads/)), [Apache Ant](http://ant.apache.org/)
 and Python v2.6 or higher to be installed.
@@ -45,7 +49,7 @@ and Python v2.6 or higher to be installed.
 
 Let's build OpenCV:
 @code{.bash}
-git clone git://github.com/Itseez/opencv.git
+git clone git://github.com/opencv/opencv.git
 cd opencv
 git checkout 2.4
 mkdir build

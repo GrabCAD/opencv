@@ -1,22 +1,23 @@
 #include "opencv2/objdetect.hpp"
 #include "opencv2/highgui.hpp"
 #include "opencv2/imgproc.hpp"
+#include "opencv2/videoio.hpp"
 #include <iostream>
 
 using namespace std;
 using namespace cv;
 
-static void help()
+static void help(const char** argv)
 {
     cout << "\nThis program demonstrates the smile detector.\n"
-            "Usage:\n"
-            "./smiledetect [--cascade=<cascade_path> this is the frontal face classifier]\n"
+            "Usage:\n" <<
+            argv[0] << " [--cascade=<cascade_path> this is the frontal face classifier]\n"
             "   [--smile-cascade=[<smile_cascade_path>]]\n"
             "   [--scale=<image scale greater or equal to 1, try 2.0 for example. The larger the faster the processing>]\n"
             "   [--try-flip]\n"
             "   [video_filename|camera_index]\n\n"
-            "Example:\n"
-            "./smiledetect --cascade=\"../../data/haarcascades/haarcascade_frontalface_alt.xml\" --smile-cascade=\"../../data/haarcascades/haarcascade_smile.xml\" --scale=2.0\n\n"
+            "Example:\n" <<
+            argv[0] << " --cascade=\"data/haarcascades/haarcascade_frontalface_alt.xml\" --smile-cascade=\"data/haarcascades/haarcascade_smile.xml\" --scale=2.0\n\n"
             "During execution:\n\tHit any key to quit.\n"
             "\tUsing OpenCV version " << CV_VERSION << "\n" << endl;
 }
@@ -25,82 +26,63 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
                     CascadeClassifier& nestedCascade,
                     double scale, bool tryflip );
 
-string cascadeName = "../../data/haarcascades/haarcascade_frontalface_alt.xml";
-string nestedCascadeName = "../../data/haarcascades/haarcascade_smile.xml";
+string cascadeName;
+string nestedCascadeName;
 
 int main( int argc, const char** argv )
 {
     VideoCapture capture;
     Mat frame, image;
-    const string scaleOpt = "--scale=";
-    size_t scaleOptLen = scaleOpt.length();
-    const string cascadeOpt = "--cascade=";
-    size_t cascadeOptLen = cascadeOpt.length();
-    const string nestedCascadeOpt = "--smile-cascade";
-    size_t nestedCascadeOptLen = nestedCascadeOpt.length();
-    const string tryFlipOpt = "--try-flip";
-    size_t tryFlipOptLen = tryFlipOpt.length();
     string inputName;
-    bool tryflip = false;
+    bool tryflip;
 
-    help();
+    help(argv);
 
     CascadeClassifier cascade, nestedCascade;
-    double scale = 1;
-
-    for( int i = 1; i < argc; i++ )
+    double scale;
+    cv::CommandLineParser parser(argc, argv,
+        "{help h||}{scale|1|}"
+        "{cascade|data/haarcascades/haarcascade_frontalface_alt.xml|}"
+        "{smile-cascade|data/haarcascades/haarcascade_smile.xml|}"
+        "{try-flip||}{@input||}");
+    if (parser.has("help"))
     {
-        cout << "Processing " << i << " " <<  argv[i] << endl;
-        if( cascadeOpt.compare( 0, cascadeOptLen, argv[i], cascadeOptLen ) == 0 )
-        {
-            cascadeName.assign( argv[i] + cascadeOptLen );
-            cout << "  from which we have cascadeName= " << cascadeName << endl;
-        }
-        else if( nestedCascadeOpt.compare( 0, nestedCascadeOptLen, argv[i], nestedCascadeOptLen ) == 0 )
-        {
-            if( argv[i][nestedCascadeOpt.length()] == '=' )
-                nestedCascadeName.assign( argv[i] + nestedCascadeOpt.length() + 1 );
-        }
-        else if( scaleOpt.compare( 0, scaleOptLen, argv[i], scaleOptLen ) == 0 )
-        {
-            if( !sscanf( argv[i] + scaleOpt.length(), "%lf", &scale ) || scale < 1 )
-                scale = 1;
-            cout << " from which we read scale = " << scale << endl;
-        }
-        else if( tryFlipOpt.compare( 0, tryFlipOptLen, argv[i], tryFlipOptLen ) == 0 )
-        {
-            tryflip = true;
-            cout << " will try to flip image horizontally to detect assymetric objects\n";
-        }
-        else if( argv[i][0] == '-' )
-        {
-            cerr << "WARNING: Unknown option " << argv[i] << endl;
-        }
-        else
-            inputName.assign( argv[i] );
+        help(argv);
+        return 0;
     }
-
+    cascadeName = samples::findFile(parser.get<string>("cascade"));
+    nestedCascadeName = samples::findFile(parser.get<string>("smile-cascade"));
+    tryflip = parser.has("try-flip");
+    inputName = parser.get<string>("@input");
+    scale = parser.get<int>("scale");
+    if (!parser.check())
+    {
+        help(argv);
+        return 1;
+    }
+    if (scale < 1)
+        scale = 1;
     if( !cascade.load( cascadeName ) )
     {
         cerr << "ERROR: Could not load face cascade" << endl;
-        help();
+        help(argv);
         return -1;
     }
     if( !nestedCascade.load( nestedCascadeName ) )
     {
         cerr << "ERROR: Could not load smile cascade" << endl;
-        help();
+        help(argv);
         return -1;
     }
-
-    if( inputName.empty() || (isdigit(inputName.c_str()[0]) && inputName.c_str()[1] == '\0') )
+    if( inputName.empty() || (isdigit(inputName[0]) && inputName.size() == 1) )
     {
-        int c = inputName.empty() ? 0 : inputName.c_str()[0] - '0' ;
+        int c = inputName.empty() ? 0 : inputName[0] - '0' ;
         if(!capture.open(c))
             cout << "Capture from camera #" <<  c << " didn't work" << endl;
     }
     else if( inputName.size() )
     {
+        inputName = samples::findFileOrKeep(inputName);
         if(!capture.open( inputName ))
             cout << "Could not read " << inputName << endl;
     }
@@ -119,7 +101,7 @@ int main( int argc, const char** argv )
             Mat frame1 = frame.clone();
             detectAndDraw( frame1, cascade, nestedCascade, scale, tryflip );
 
-            int c = waitKey(10);
+            char c = (char)waitKey(10);
             if( c == 27 || c == 'q' || c == 'Q' )
                 break;
         }
@@ -127,7 +109,7 @@ int main( int argc, const char** argv )
     else
     {
         cerr << "ERROR: Could not initiate capture" << endl;
-        help();
+        help(argv);
         return -1;
     }
 
@@ -155,7 +137,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
     cvtColor( img, gray, COLOR_BGR2GRAY );
 
     double fx = 1 / scale;
-    resize( gray, smallImg, Size(), fx, fx, INTER_LINEAR );
+    resize( gray, smallImg, Size(), fx, fx, INTER_LINEAR_EXACT );
     equalizeHist( smallImg, smallImg );
 
     cascade.detectMultiScale( smallImg, faces,
@@ -173,7 +155,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
                                  //|CASCADE_DO_ROUGH_SEARCH
                                  |CASCADE_SCALE_IMAGE,
                                  Size(30, 30) );
-        for( vector<Rect>::const_iterator r = faces2.begin(); r != faces2.end(); r++ )
+        for( vector<Rect>::const_iterator r = faces2.begin(); r != faces2.end(); ++r )
         {
             faces.push_back(Rect(smallImg.cols - r->x - r->width, r->y, r->width, r->height));
         }
@@ -197,8 +179,8 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
             circle( img, center, radius, color, 3, 8, 0 );
         }
         else
-            rectangle( img, cvPoint(cvRound(r.x*scale), cvRound(r.y*scale)),
-                       cvPoint(cvRound((r.x + r.width-1)*scale), cvRound((r.y + r.height-1)*scale)),
+            rectangle( img, Point(cvRound(r.x*scale), cvRound(r.y*scale)),
+                       Point(cvRound((r.x + r.width-1)*scale), cvRound((r.y + r.height-1)*scale)),
                        color, 3, 8, 0);
 
         const int half_height=cvRound((float)r.height/2);
@@ -226,7 +208,7 @@ void detectAndDraw( Mat& img, CascadeClassifier& cascade,
         float intensityZeroOne = ((float)smile_neighbors - min_neighbors) / (max_neighbors - min_neighbors + 1);
         int rect_height = cvRound((float)img.rows * intensityZeroOne);
         Scalar col = Scalar((float)255 * intensityZeroOne, 0, 0);
-        rectangle(img, cvPoint(0, img.rows), cvPoint(img.cols/10, img.rows - rect_height), col, -1);
+        rectangle(img, Point(0, img.rows), Point(img.cols/10, img.rows - rect_height), col, -1);
     }
 
     imshow( "result", img );
